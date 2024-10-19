@@ -48,7 +48,7 @@ outputs = [
 hurnet_neural_network.train( # performs training of the artificial neural network
     input_layer=inputs, # assignment of the input two-dimensional matrix for training
     output_layer=outputs, # assignment of the output two-dimensional matrix for training
-    linear=True # if True it will recognize the patterns linearly, if False the patterns will be recognized non-linearly (default is True)
+    linear=False # if True it will recognize the patterns linearly, if False the patterns will be recognized non-linearly (default is False)
 )
 # test inputs with different values than those used in training
 test_inputs = [
@@ -96,7 +96,7 @@ outputs = [ # all output vectors must have the same number of elements
 hurnet_neural_network.train( # performs training of the artificial neural network
     input_layer=inputs, # assignment of the input two-dimensional matrix for training
     output_layer=outputs, # assignment of the output two-dimensional matrix for training
-    linear=True # if True it will recognize the patterns linearly, if False the patterns will be recognized non-linearly (default is True)
+    linear=False # if True it will recognize the patterns linearly, if False the patterns will be recognized non-linearly (default is False)
 )
 # test inputs with different values than those used in training
 test_inputs = [
@@ -380,7 +380,7 @@ Parameters
 |---------------|-------------------------------------------------------------------|------|---------------|
 | input_layer   | input two-dimensional array                                       | list | []            |
 | output_layer  | output two-dimensional array                                      | list | []            |
-| linear        | True for linear calculation or False for non-linear calculation   | bool | True          |
+| linear        | True for linear calculation or False for non-linear calculation   | bool | False         |
 
 ### predict (function return type: list): Returns a two-dimensional array with the inference results
 Parameters
@@ -396,7 +396,7 @@ hurnet_neural_network = SingleLayerHurNet() # instantiation of the class object
 # network training dataset
 inputs = [[2], [4], [6], [8]] # input samples
 outputs = [[4], [8], [12], [16]] # output samples
-linear = False # inference will be faster with linearity disabled
+linear = True # inference will be faster with linearity enabled
 # dataset for test prediction
 test_inputs = [[1], [3], [5], [7]] # input data for inference
 test_outputs = [] # variable to store the prediction response
