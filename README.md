@@ -4,6 +4,8 @@ Example of construction of an Artificial Neural Network with the single-layer Hu
 
 This code is an algorithm designed, architected and developed by Sapiens Technology®️ and aims to build a simple Artificial Neural Network without hidden layers and with tabular data arranged in two-dimensional numerical matrices at the input and output. This is just a simplified example of the complete HurNet Neural Network architecture that can be used and distributed in a compiled form by Sapiens Technology®️ members in seminars and presentations. HurNet Neural Networks use a peculiar architecture (created by Ben-Hur Varriano) that eliminates the need for backpropagation in weights adjustment, making network training faster and more effective. In this example, we do not provide the network configuration structure for hidden layers and we reduce the dimensionality of the data to prevent potential market competitors from using our own technology against us. Although it is a simplified version of the HurNet network, it is still capable of assimilating simple patterns and some complex patterns that a conventional Multilayer Neural Network would not be able to abstract.
 
+If you prefer, click [here](https://colab.research.google.com/drive/1l2moQTZmXBDDDrAZi_QW06h4JGGJOYry?usp=sharing) to run it via [Google Colab](https://colab.research.google.com/drive/1l2moQTZmXBDDDrAZi_QW06h4JGGJOYry?usp=sharing).
+
 ## Installation
 
 Before installing the main package, it is necessary to install the numpy package as a dependency.
