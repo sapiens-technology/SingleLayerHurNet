@@ -6,6 +6,8 @@ This code is an algorithm designed, architected and developed by Sapiens Technol
 
 If you prefer, click [here](https://colab.research.google.com/drive/1l2moQTZmXBDDDrAZi_QW06h4JGGJOYry?usp=sharing) to run it via [Google Colab](https://colab.research.google.com/drive/1l2moQTZmXBDDDrAZi_QW06h4JGGJOYry?usp=sharing).
 
+Click [here](https://zenodo.org/records/14048948) to read the full study.
+
 ## Installation
 
 Before installing the main package, it is necessary to install the numpy package as a dependency.
