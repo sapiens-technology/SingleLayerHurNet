@@ -431,3 +431,5 @@ Make sure you are using the appropriate version.
 ## License
 
 This is proprietary software and its alteration and/or distribution without the developer's authorization is not permitted.
+
+<sub>Varriano, B.-H., & Sapiens Technology®. (2024). Single Layer HurNet: A Neural Network Without Backpropagation for Two-Dimensional Matrices (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.14048948</sub>
