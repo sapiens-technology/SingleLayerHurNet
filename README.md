@@ -1,6 +1,6 @@
 Example of construction of an Artificial Neural Network with the single-layer HurNet architecture for two-dimensional numerical matrices.
 
-** ---> Click [here](https://github.com/sapiens-technology/SingleLayerHurNetCore) to use the CORE version with native Python that does not require prior installation of Numpy. <--- **
+---> **Click [here](https://github.com/sapiens-technology/SingleLayerHurNetCore) to use the CORE version with native Python that does not require prior installation of Numpy.** <---
 
 # Single Layer HurNet
 
