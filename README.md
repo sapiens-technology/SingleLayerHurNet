@@ -309,6 +309,8 @@ print('time spent: '+str(duration_in_seconds))
 # this example will run on a macbook m3 max (the most advanced of the moment)
 ```
 Note that with TensorFlow it took 351 times more time (11.107148885726929 divided by 0.03168320655822754) than we would have spent with the HurNet network and yet the TensorFlow result was obtained with a much lower level of accuracy. Also remember that this time can increase exponentially as more data and more layers are added to the network.
+
+**(With the [CORE](https://colab.research.google.com/drive/1l2moQTZmXBDDDrAZi_QW06h4JGGJOYry?usp=sharing) version, results were obtained with a performance greater than one hundred thousand times)**
 ```bash
 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
 Inputs: [[4.0, 2.0], [3.0, 1.0], [5.0, 4.0], [2.0, 1.0]]
