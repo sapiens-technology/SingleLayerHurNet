@@ -1,5 +1,7 @@
 Example of construction of an Artificial Neural Network with the single-layer HurNet architecture for two-dimensional numerical matrices.
 
+Click [here](https://github.com/sapiens-technology/SingleLayerHurNetCore) to use the CORE version with native Python that does not require prior installation of Numpy.
+
 # Single Layer HurNet
 
 This code is an algorithm designed, architected and developed by Sapiens Technology®️ and aims to build a simple Artificial Neural Network without hidden layers and with tabular data arranged in two-dimensional numerical matrices at the input and output. This is just a simplified example of the complete HurNet Neural Network architecture that can be used and distributed in a compiled form by Sapiens Technology®️ members in seminars and presentations. HurNet Neural Networks use a peculiar architecture (created by Ben-Hur Varriano) that eliminates the need for backpropagation in weights adjustment, making network training faster and more effective. In this example, we do not provide the network configuration structure for hidden layers and we reduce the dimensionality of the data to prevent potential market competitors from using our own technology against us. Although it is a simplified version of the HurNet network, it is still capable of assimilating simple patterns and some complex patterns that a conventional Multilayer Neural Network would not be able to abstract.
